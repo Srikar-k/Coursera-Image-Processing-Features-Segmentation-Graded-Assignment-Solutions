@@ -1,3 +1,4 @@
+img = imread('pout.tif');
 [r, c] = size(img);
 H = imhist(img);
 Hc = cumsum(H);
